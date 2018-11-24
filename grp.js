@@ -41,7 +41,6 @@ class Grp extends Component {
                     <div style={name}>
                         <h3>{this.props.fname}</h3>
                         <h3><b style={sname}>{this.props.sname}</b></h3>
-                        <h6 >({this.props.gender})</h6>
                     </div>
                 </div>
                 <h4 style = {job}>{this.props.job1}</h4>

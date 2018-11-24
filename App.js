@@ -41,7 +41,7 @@ class App extends Component {
         
         <div style={équipe}> 
           {group.map((el,i)=>{
-            return <Grp pic={el.pic} fname={el.fname} sname={el.sname} gender={el.gender} job1={el.job1} job2={el.job2}/>})}
+            return <Grp pic={el.pic} fname={el.fname} sname={el.sname} job1={el.job1} job2={el.job2}/>})}
         </div>
         
       </div>
